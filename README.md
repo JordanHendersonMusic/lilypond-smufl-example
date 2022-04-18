@@ -1,9 +1,17 @@
 # lilypond-smufl-example
 
 A simple example of how to use Smufl fonts in lilypond. 
-See example.ly.
 
-The 3 other files may be placed in a folder on your computer and include from anywhere else. 
-However it is easier to put them in a folder and copy that folder anew to each project.
+See example.ly for the main file
+
+## For use in larger project
+
+Put this project in a folder, then include into it.
+i.e.,
+  - my_project_folder/
+  -   - lilypond-smufl-example/
+  -   -  my_composition.ly
+
+and then add ```\include "lilypond-smufl-example/bravura.ly"``` at the top of my_composition.ly.
 
 Code taken from https://github.com/lyp-packages/smufl with a few small changes, mostly altering the styles.
